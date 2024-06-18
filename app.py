@@ -2,7 +2,7 @@
 from flask import Flask, jsonify, request
 from flask_cors import CORS
 # import OCR script
-from scripts import OCR_script
+import OCR_script
 
 # initial flask object
 app = Flask(__name__)
